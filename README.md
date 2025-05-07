@@ -44,15 +44,14 @@ El propósito de este proyecto es demostrar cómo implementar un flujo moderno d
 ## 📂 Estructura del Repositorio
 
 ```plaintext
-├── notebooks/                          # Notebooks de procesamiento de datos
-│   ├── 01_ingesta_api_nyc.ipynb        # Ingesta automática desde API de Nueva York
-│   └── 02_transformaciones_taxi.ipynb  # Transformaciones y carga de datos a la capa Gold
+├── notebooks/                              # Notebooks de procesamiento de datos
+│   ├── Historical-Incremental Data.ipynb   # Ingesta automática desde API de Nueva York
 │
-├── powerbi/                            # Dashboard de Power BI
-│   └── dashboard_taxi_nyc.pbix         # Reporte final en Power BI
+├── powerbi/                                # Dashboard de Power BI
+│   └── NYC Yellow Taxi Report.pbix         # Reporte final en Power BI
 │
 ├── data/                               # Carpeta de datasets
-│   └── ejemplo_datasets/               # Archivos Parquet de ejemplo
+│   └── archivos parquet                # Archivos Parquet utilizados
 │
 ├── assets/                             # Archivos de recursos visuales
 │   └── arquitectura_solucion.png       # Diagrama de arquitectura de la solución
