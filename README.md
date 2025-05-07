@@ -50,11 +50,11 @@ El propósito de este proyecto es demostrar cómo implementar un flujo moderno d
 ├── powerbi/                                # Dashboard de Power BI
 │   └── NYC Yellow Taxi Report.pbix         # Reporte final en Power BI
 │
-├── data/                               # Carpeta de datasets
-│   └── archivos parquet                # Archivos Parquet utilizados
+├── pipelines/                              # Carpeta de datasets
+│   └── archivos json de los pipelines      # Archivos Parquet utilizados
 │
-├── assets/                             # Archivos de recursos visuales
-│   └── arquitectura_solucion.png       # Diagrama de arquitectura de la solución
+├── assets/                                 # Archivos de recursos visuales
+│   └── arquitectura_solucion.png           # Diagrama de arquitectura de la solución
 │
-├── README.md                           # Documentación del proyecto
-└── LICENSE                             # Licencia del proyecto
+├── README.md                               # Documentación del proyecto
+└── LICENSE                                 # Licencia del proyecto
