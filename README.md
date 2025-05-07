@@ -41,6 +41,24 @@ El propósito de este proyecto es demostrar cómo implementar un flujo moderno d
 
 ---
 
+## 🔨 Componentes Utilizados
+
+Este proyecto combina múltiples herramientas del ecosistema de Microsoft Fabric y otras tecnologías clave para implementar una solución de datos moderna:
+
+| Componente             | Descripción                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Microsoft Fabric**   | Plataforma unificada para analítica de datos a gran escala.                |
+| **Lakehouse**          | Modelo de almacenamiento unificado para datos estructurados en capas.      |
+| **Warehouse**          | Motor SQL optimizado para análisis tabular y consumo BI.                   |
+| **Data Factory**       | Orquestador de pipelines de datos dentro de Fabric para ETL y automatización. |
+| **Pipelines**          | Flujo de trabajo que conecta notebooks, actividades de copia y transformaciones. |
+| **Notebooks (PySpark)**| Scripts interactivos para ingesta, transformación y análisis.              |
+| **Stored Procedures**  | Lógica SQL almacenada en el Warehouse para procesamiento adicional.        |
+| **Power BI**           | Herramienta de visualización conectada directamente a las tablas *gold*.   |
+| **API NYC TLC**        | Fuente de datos públicos en formato `.parquet` con registros de taxis.     |
+
+---
+
 ## 📂 Estructura del Repositorio
 
 ```plaintext
