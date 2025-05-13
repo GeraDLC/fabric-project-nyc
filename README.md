@@ -12,7 +12,7 @@ El propósito de este proyecto es demostrar cómo implementar un flujo moderno d
 
 ## 🧱 Arquitectura de la Solución
 
-![Arquitectura](assets/arquitectura_solucion.png)
+![Arquitectura](assets/Presentacion1.png)
 
 1. **Landing / Bronze**  
    - Descarga automatizada de archivos `.parquet` desde una API pública (NYC Taxi & Limousine Commission).  
@@ -72,7 +72,7 @@ Este proyecto combina múltiples herramientas del ecosistema de Microsoft Fabric
 │   └── archivos json de los pipelines      # Archivos Parquet utilizados
 │
 ├── assets/                                 # Archivos de recursos visuales
-│   └── arquitectura_solucion.png           # Diagrama de arquitectura de la solución
+│   └── Presentacion1.png           # Diagrama de arquitectura de la solución
 │
 ├── README.md                               # Documentación del proyecto
 └── LICENSE                                 # Licencia del proyecto
