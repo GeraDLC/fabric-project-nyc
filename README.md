@@ -12,7 +12,7 @@ El propósito de este proyecto es demostrar cómo implementar un flujo moderno d
 
 ## 🧱 Arquitectura de la Solución
 
-![Arquitectura](assets/Presentacion1.png)
+![Arquitectura](assets/Presentation1.png)
 
 1. **Landing / Bronze**  
    - Descarga automatizada de archivos `.parquet` desde una API pública (NYC Taxi & Limousine Commission).  
